@@ -1,0 +1,122 @@
+body
+{
+    background-image: url("OIP.jfif");
+    background-size: auto;
+    background-size: cover;
+}
+.container
+{
+    width: 360px;
+    height: 400px;
+    background-color: white;
+    display:flex ;
+    margin-left: 500px;
+    margin-top: 100px;
+    overflow: hidden;
+}
+
+.container form{
+
+ width: 280px;
+ 
+
+}
+form input
+{
+    width: 100%;
+    margin-left: 40px;
+    padding: 5px;
+    margin:10px 30px 30px 30px;
+    border: 0;
+    border-bottom: 2px solid rgb(28, 174, 231);
+
+
+    outline: none;
+
+}
+form button
+{
+    margin-left: 120px ;
+    padding: 5px;
+    width: 90px;
+    border-radius: 50px;
+    background-color: skyblue;
+   border: 0;
+   margin-left: 40px;
+   float: left;
+   cursor: pointer;
+  
+}
+#form1
+{
+    margin-left: -400px;
+    background: transparent;
+    padding: 30px;
+    
+}
+#form2
+{
+    margin-left: 160px;
+    background: transparent;
+    padding: 30px;
+    
+}
+#form3
+{
+    margin-left: -25px;
+    background: transparent;
+    padding: 30px;
+}
+
+.nxt
+{
+    margin-top:-25px;
+    margin-left: 200px;
+}
+.step
+{
+    width: 360px;
+    height: 40px;
+    display: flex;
+    box-shadow: 0 -1px 5px -1px black;
+   
+    
+  
+    
+}
+.step1
+{
+   width: 120px;
+   height:40px ;
+   text-align: center;
+   margin-top: 12px;
+   margin-left:-100px;
+
+ 
+}
+.step2
+{
+    width: 120px;
+    height:40px ;
+    text-align: center;
+    margin-top: 12px;
+    margin-left: 2px;
+
+}
+.step3
+{
+    width: 120px;
+    height:40px ;
+    text-align: center;
+    margin-top: 12px;
+    margin-left: 2px;
+}
+.progress
+{
+
+    width: 120px;
+   height: 100%;
+    background: rgb(102, 199, 237);
+    transition: 1s;
+   
+}
